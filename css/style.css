@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+	background-color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* !Временные границы блоков */
+div {
+  outline: 1px solid red;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+
+.header-body {
+	height: 60px;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+}
+
+.header-menu {
+	display: flex;
+  position: relative;
+}
+
+.header-menu__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-menu__link {
+  color: #fff;
+	border-color: transparent;
+	border-width: 1px;
+  border-radius: 50px;
+  border-style: solid;
+	text-decoration: none;
+  cursor: pointer;
+	vertical-align: middle;
+  padding: 10px 15px;
+	margin: 10px;
+}
+
+.header-menu__link:hover {
+  color: #f2d7af;
+	border-color: #f2d7af;
+}
+
+.header-menu__sublist {
+	position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+	margin-top: -10px;
+}
+
+.header-menu__link:hover .header-menu__sublist {
+	display: block;
+}
+
+.header-menu__sublink {
+	width: 300px;
+	/* width: 100%; */
+	color: white;
+	border-color: transparent;
+	border-width: 1px;
+  border-radius: 50px;
+  border-style: solid;
+	text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  background: #383c54;
+  position: relative;
+	text-align: center;
+  height: 50px;
+  line-height: 50px;
+  transition: all .5s;
+}
+
+.header-menu__sublink:hover {
+	color: #f2d7af;
+	background: #808291;
+}
+
+.header-burger {
+  display: none;
+}
+
+.content {
+  max-width: 100%;
+	height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+/* Блок информационный с фото ============================== */
+.block1 {
+  max-width: 30%;
+	background-color: #fff;
+}
+
+.foto {
+  max-width: 100%;
+	padding: 10px;
+  /* padding-bottom: 100px; */
+}
+
+.foto img {
+  max-width: 100%;
+  object-fit: cover;
+  /* margin-top: 30px; */
+}
+
+.info {
+  width: 100%;
+	margin-bottom: 50px;
+}
+
+.name {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.prof {
+	text-align: center;
+}
+
+.btn-contact {
+	display: flex;
+	justify-content: center;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+/* Блок с анонсом слайдер ============================== */
+.block2 {
+  width: 70%;
+}
+
+.swiper {
+  max-width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  min-height: 150px;
+  flex: 0;
+  position: relative;
+}
+
+/* Адаптив картинки */
+.swiper-wrapper img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.swiper-slide {
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+	background-repeat: no-repeat;
+	/* Добавление фильтра */
+  filter: grayscale(1);
+  transition: all 0.8s ease 0s;
+}
+
+/* Подключение цветного фильтра */
+.swiper-slide:hover {
+  filter: grayscale(0);
+}
+
+/* Изменение цвета стрелок сдайдера */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #666666;
+}
+
+/* Работа над погинацией */
+.swiper-pagination-horizontal {
+  /* margin-bottom: 12px; */
+	display: none;
+}
+
+/* Стилизация кружков */
+/* .swiper-pagination-bullet {
+  min-width: 15px;
+  min-height: 15px;
+} */
+
+/* Стилизация активного кружочка */
+/* .swiper .swiper-pagination-bullet-active {
+  background-color: #000;
+} */
+
+.footer__copyright {
+	color: white;
+	text-align: center;
+	margin: 20px;
+}
