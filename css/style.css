@@ -6,7 +6,7 @@
 html,
 body {
   box-sizing: border-box;
-	background-color: #000;
+  background-color: #000;
 }
 
 a {
@@ -24,9 +24,9 @@ li {
 }
 
 /* !Временные границы блоков */
-div {
+/* div {
   outline: 1px solid red;
-}
+} */
 
 .container {
   max-width: 1920px;
@@ -44,14 +44,14 @@ div {
 }
 
 .header-body {
-	height: 60px;
+  height: 60px;
   position: relative;
   z-index: 50;
   align-items: center;
 }
 
 .header-menu {
-	display: flex;
+  display: flex;
   position: relative;
 }
 
@@ -63,57 +63,57 @@ div {
 
 .header-menu__link {
   color: #fff;
-	border-color: transparent;
-	border-width: 1px;
+  border-color: transparent;
+  border-width: 1px;
   border-radius: 50px;
   border-style: solid;
-	text-decoration: none;
+  text-decoration: none;
   cursor: pointer;
-	vertical-align: middle;
+  vertical-align: middle;
   padding: 10px 15px;
-	margin: 10px;
+  margin: 10px;
 }
 
 .header-menu__link:hover {
   color: #f2d7af;
-	border-color: #f2d7af;
+  border-color: #f2d7af;
 }
 
 .header-menu__sublist {
-	position: absolute;
+  position: absolute;
   left: 0;
   top: 100%;
   display: none;
   padding: 0;
-	margin-top: -10px;
+  margin-top: -10px;
 }
 
 .header-menu__link:hover .header-menu__sublist {
-	display: block;
+  display: block;
 }
 
 .header-menu__sublink {
-	width: 300px;
-	/* width: 100%; */
-	color: white;
-	border-color: transparent;
-	border-width: 1px;
+  width: 300px;
+  /* width: 100%; */
+  color: white;
+  border-color: transparent;
+  border-width: 1px;
   border-radius: 50px;
   border-style: solid;
-	text-decoration: none;
+  text-decoration: none;
   cursor: pointer;
   list-style: none;
   background: #383c54;
   position: relative;
-	text-align: center;
+  text-align: center;
   height: 50px;
   line-height: 50px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .header-menu__sublink:hover {
-	color: #f2d7af;
-	background: #808291;
+  color: #f2d7af;
+  background: #808291;
 }
 
 .header-burger {
@@ -122,7 +122,7 @@ div {
 
 .content {
   max-width: 100%;
-	height: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -132,12 +132,12 @@ div {
 /* Блок информационный с фото ============================== */
 .block1 {
   max-width: 30%;
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .foto {
   max-width: 100%;
-	padding: 10px;
+  padding: 10px;
   /* padding-bottom: 100px; */
 }
 
@@ -149,26 +149,26 @@ div {
 
 .info {
   width: 100%;
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .name {
-	font-size: 1.5em;
-	text-align: center;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .prof {
-	text-align: center;
+  text-align: center;
 }
 
 .btn-contact {
-	display: flex;
-	justify-content: center;
-	border: none;
-	cursor: pointer;
-	padding: 10px;
-	margin: 0 auto;
-	margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 /* Блок с анонсом слайдер ============================== */
@@ -201,8 +201,8 @@ div {
   max-width: 100%;
   background-position: center;
   background-size: cover;
-	background-repeat: no-repeat;
-	/* Добавление фильтра */
+  background-repeat: no-repeat;
+  /* Добавление фильтра */
   filter: grayscale(1);
   transition: all 0.8s ease 0s;
 }
@@ -221,7 +221,7 @@ div {
 /* Работа над погинацией */
 .swiper-pagination-horizontal {
   /* margin-bottom: 12px; */
-	display: none;
+  display: none;
 }
 
 /* Стилизация кружков */
@@ -236,7 +236,7 @@ div {
 } */
 
 .footer__copyright {
-	color: white;
-	text-align: center;
-	margin: 20px;
+  color: white;
+  text-align: center;
+  margin: 20px;
 }
