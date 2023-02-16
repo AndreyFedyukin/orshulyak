@@ -2,94 +2,183 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Игорь Оршуляк</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/media.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игорь Оршуляк</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 
-	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 </head>
 
 <body>
-	<header class="header">
-		<div class="container">
+  <div class="page">
+    <header class="header">
+      <div class="container">
 
-			<!-- Верхнее меню ============================== -->
-			<div class="header-body">
+        <!-- Верхнее меню ============================== -->
+        <div class="header-body">
 
-				<nav class="header-menu">
-					<ul class="header-menu__list">
-						<li class="header-menu__link">Главная</li>
-						<li class="header-menu__link">Проекты
-							<ul class="header-menu__sublist">
-								<li class="header-menu__sublink">Театральные проекты</li>
-								<li class="header-menu__sublink">Ледовые спектакли и шоу</li>
-								<li class="header-menu__sublink">Show-Biz</li>
-							</ul>
-						</li>
-						<li class="header-menu__link">Немного обо мне</li>
-						<li class="header-menu__link">Контакты</li>
-					</ul>
-				</nav>
+          <nav class="header-menu">
+            <ul class="header-menu__list">
+              <li class="header-menu__link">Главная</li>
+              <li class="header-menu__link">Проекты
+                <ul class="header-menu__sublist">
+                  <li class="header-menu__sublink">Театральные проекты</li>
+                  <li class="header-menu__sublink">Ледовые спектакли и шоу</li>
+                  <li class="header-menu__sublink">Show-Biz</li>
+                </ul>
+              </li>
+              <li class="header-menu__link">Немного обо мне</li>
+              <li class="header-menu__link">Контакты</li>
+            </ul>
+          </nav>
 
-				<div class="header-burger">
-					<span></span>
-				</div>
+          <div class="header-burger">
+            <span></span>
+          </div>
 
-			</div>
-		</div>
-	</header>
+        </div>
+      </div>
+    </header>
 
-	<main>
-		<div class="container">
+    <main class="main">
+      <div class="container">
 
-			<div class="content">
-				<!-- Блок информационный с фото ==============================  -->
-				<div class="block1">
-					<div class="foto">
-						<img src="img/igor.jpg" alt="Игорь">
-					</div>
-					<div class="info">
-						<h1 class="name">Игорь Оршуляк</h1>
-						<p class="prof">Режиссер, Хореограф</p>
-					</div>
-					<button class="btn-contact">СВЯЖИТЕСЬ СО МНОЙ</button>
-				</div>
+        <div class="content">
+          <!-- Блок информационный с фото ==============================  -->
+          <div class="block1">
+            <div class="foto">
+              <img src="img/igor.jpg" alt="Игорь">
+            </div>
+            <div class="info">
+              <h1 class="name">Игорь Оршуляк</h1>
+              <p class="prof">Режиссер, Хореограф</p>
+            </div>
+            <button class="btn-contact">СВЯЖИТЕСЬ СО МНОЙ</button>
+          </div>
 
-				<!-- Блок с анонсом слайдер ==============================  -->
-				<div class="block2">
-					<div class="swiper">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide" style="background-image: url(img/slide1.jpg);"></div>
-							<div class="swiper-slide" style="background-image: url(img/slide2.jpg);"></div>
-							<div class="swiper-slide" style="background-image: url(img/slide3.jpg);"></div>
-						</div>
-						<div class="swiper-pagination"></div>
-						<div class="swiper-button-prev"></div>
-						<div class="swiper-button-next"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
+          <!-- Блок с анонсом слайдер ==============================  -->
+          <div class="block2">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(img/slide1.jpg);"></div>
+                <div class="swiper-slide" style="background-image: url(img/slide2.jpg);"></div>
+                <div class="swiper-slide" style="background-image: url(img/slide3.jpg);"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
 
-	<!-- Footer ============================== -->
-	<footer class="footer">
-		<p class="footer__copyright">
-			&#169; 2021-2022, ИГОРЬ ОРШУЛЯК.<br> Все права защищены
-		</p>
-	</footer>
 
-	<!-- JS ============================== -->
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="js/script.js"></script>
+        </div>
+        <!-- <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero adipisci fuga beatae quis nulla,
+          cupiditate voluptates sapiente ipsum molestiae debitis. Animi ad doloribus maxime temporibus voluptates
+          dolorem optio? Commodi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat rem fuga veritatis voluptatibus sint
+          vel sapiente, labore possimus modi aliquid nostrum? Sint quo voluptates ipsam vitae voluptate asperiores
+          quasi!
+          <br>
+        </div> -->
+      </div>
+    </main>
 
+    <!-- Footer ============================== -->
+    <footer class="footer">
+      <p class="footer__copyright">
+        &#169; 2021-2022, ИГОРЬ ОРШУЛЯК.<br> Все права защищены
+      </p>
+    </footer>
+  </div>
+
+  <!-- JS ============================== -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
