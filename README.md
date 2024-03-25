@@ -6,7 +6,7 @@
 
 ---
 
-ссылка - https://andreyfedyukin.github.io/Orshulyak/ 
+ссылка - https://andreyfedyukin.github.io/orshulyak/ 
 
 <br>
 
